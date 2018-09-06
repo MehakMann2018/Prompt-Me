@@ -8,7 +8,7 @@ let gdata = null;
 
 (function() {
   // you can use this for now, but you'll eventually want your own key
-  const authKey =	"gTSlAymCjOVoZXJajlxV-_uZ2Mo";
+  const authKey = "gTSlAymCjOVoZXJajlxV-_uZ2Mo";
 
   window.onload = function() {
     makeFetch();
