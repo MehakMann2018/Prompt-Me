@@ -23,7 +23,7 @@ let gdata = null;
    * expand on it!
    */
   function makeFetch() {
-    fetch("https://www.reddit.com/best/.json?limit=5")
+    fetch("https://www.reddit.com/r/WritingPrompts/.json?limit=5")
       .then(checkStatus) // this handle errors for making fetches
       .then(JSON.parse)  // turns strings into easy-to-use JS objects
       .then(function(result) { 
@@ -65,6 +65,10 @@ let gdata = null;
       img.src = post.thumbnail;
       article.appendChild(img);
     }
+
+    let p = document.createElement("p");
+    p.innerText = post.selftext;
+    article.appendChild(p);
 
     return article;
   }
