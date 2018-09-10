@@ -1,0 +1,17 @@
+Here are the basics of using Git for this project (make sure you're in your Prompt-Me
+folder and use "git status" to see that you don't get a "fatal: Not a get repository"
+error)!
+
+* Any lines that are indented refer to a line you want to write on the bash terminal
+
+To pull my changes (ALWAYS DO THIS BEFORE PUSHING YOUR CHANGES OR WHEN YOU RETURN TO
+WORKING):
+
+  git pull
+
+To add your changes and save them so I can see them:
+  git add YOUR_FILE_PATH(S)
+  git commit -m "YOUR MESSAGE"
+  git push
+
+Voila! :) Ping Melissa if you have any questions!
