@@ -73,3 +73,91 @@
    73  git status
    74  git push origin master
    75  history >> history1.txt
+    1  lynx
+    2  python
+    3  vi hello.py
+    4  python hello.py 
+    5  clear
+    6  sudo apt-get install lynx
+    7  clear
+    8  vi python
+    9  py hello.py 
+   10  vi python
+   11  vi hello.py 
+   12  python hello.py 
+   13  clear
+   14  brew install lynx
+   15  install lynx
+   16  sudo port install lynx
+   17  brew install lynx
+   18  cd /usr/local/src
+   19  curl -O http://lynx.isc.org/lynx2.8.7/lynx2.8.7.tar.gz
+   20  tar -xzvf lynx2.8.7.tar.gz
+   21  cd lynx2-8-7
+   22  ./configure --mandir=/usr/share/man
+   23  make
+   24  cd /usr/local/src
+   25  mkdir ~/src
+   26  cd ~/src/
+   27  curl -O http://lynx.isc.org/lynx2.8.7/lynx2.8.7.zip
+   28  clear
+   29  clear() ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+   30  clear9)
+   31  clear() clear
+   32  clear
+   33  ls
+   34  cd
+   35  ls
+   36  rm hello.py 
+   37  wget www.wikipedia.org/wiki/Cat
+   38  curl www.wikipedia.org/wiki/Cat
+   39  ls
+   40  clear
+   41  curl www.wikipedia.org/wiki/Cat
+   42  curl www.wikipedia.org/wiki/Cat -o cat.html
+   43  ls
+   44  cat.html
+   45  vi cat.html
+   46  curl https://courses.cs.washington.edu/courses/cse190e/18au/index.html -o index.html
+   47  vi index.html 
+   48  curl www.wikipedia.org/wiki/Cat/index.html -o cat.html
+   49  curl https://courses.cs.washington.edu/courses/cse190e/18au/style.css -o canvas.css
+   50  vi canvas.css
+   51  rm canvas.css
+   52  vi index.html
+   53  vi index.html
+   54  curl https://courses.cs.washington.edu/courses/cse190e/18au/site/css/bootstrap.min.css -o bootstrap.min.css
+   55  curl https://courses.cs.washington.edu/courses/cse190e/18au/site/css/main.css -o main.css
+   56  vi index.html
+   57  vi main.css
+   58  ls
+   59  cd Documents/PromptMe/
+   60  git status
+   61  ls
+   62  git clone https://github.com/MehakMann2018/Prompt-Me.git
+   63  vi hello.py
+   64  git add hello.py
+   65  ls
+   66  cd Prompt-Me/
+   67  ls
+   68  mv ../hello.py
+   69  mv ../hello.py .
+   70  ls
+   71  git add hello.py
+   72  git commit -m "Testing adding a file"
+   73  git status
+   74  git push origin master
+   75  history >> history1.txt
+   76  vim history1.txt
+   77  cal
+   78  cal>>cal-file.txt
+   79  git pull
+   80  pull
+   81  git pull
+   82  ls
+   83  mkdir practice
+   84  mv history1.txt practice/
+   85  git add practice
+   86  git commit
+   87  git push
+   88  history >> practice/history1.txt
